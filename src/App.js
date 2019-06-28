@@ -1,9 +1,8 @@
 import React, { Component } from 'react';
-// import './App.css';
 import Wrapper from './components/Wrapper';
 import Navbar from './components/Navbar';
 import Header from './components/Header';
-// import Main from './components/Main';
+import Main from './components/Main';
 import Footer from './components/Footer';
 
 class App extends Component {
@@ -18,7 +17,7 @@ class App extends Component {
   handleClick = (squareNumber) => {
 
     this.setState({ square: squareNumber});
-  }
+  };
   
   render() {
   
@@ -27,7 +26,7 @@ class App extends Component {
     <Wrapper>
       <Navbar score={this.state.score} topScore={this.state.topScore}  />
       <Header />
-      {/* <Main square={this.state.square}/> */}
+      <Main square={this.state.square}/>
       <Footer />
       </Wrapper>
   );
