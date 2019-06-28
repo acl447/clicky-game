@@ -1,8 +1,4 @@
 import React from 'react';
-import { blockStatement } from '@babel/types';
-
-
-
 
 
 function Navbar(props) {
@@ -17,9 +13,6 @@ function Navbar(props) {
 
     };
 
-
-
-
     return (
         <nav className="navbar navbar-expand-lg" style={styles}>
             <ul className="navbar-nav mr-auto" style={styles}>
@@ -32,7 +25,6 @@ function Navbar(props) {
         </nav>
     );
 }
-
 
 
 export default Navbar;
