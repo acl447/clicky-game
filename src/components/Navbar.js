@@ -21,7 +21,7 @@ function Navbar(props) {
     };
 
     return (
-        <nav className="navbar navbar-expand-lg" style={styles}>
+        <nav className="navbar navbar-expand-lg sticky-top" style={styles}>
             <ul className="navbar-nav mr-auto" style={styles2}>
             <li className="nav-item active" style={styles2}>
             <a href="/" style={styles2}><strong>Clicky Game</strong></a>
