@@ -2,7 +2,8 @@ import React from 'react';
 
 
 
-function Main() {
+
+function Main(props) {
 
     const styles = {
 
@@ -14,8 +15,7 @@ function Main() {
    
     return (
         <main className="container" style={styles}>
-            
-            
+            {props.imageArray}
         </main>
     );
 }
