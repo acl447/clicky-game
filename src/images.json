@@ -1,59 +1,62 @@
 [
-{
-    "id": 1,
-    "name": "cat",
-    "src": "./cat.jpg" 
-  }, {
-    "id": 2,
-    "name": "dog",
-    "src": "./dog.jpg"
-    
-  }, {
-    "id": 3,
-    "name": "bird",
-    "src": "./bird.jpg"
-  }, {
-    "id": 4,
-    "name": "deer",
-    "src": "./deer.jpg"
-  },
-  {
-    "id": 5,
-    "name": "hamster",
-    "src": "./hamster.jpg"
-  },
-  {
-    "id": 6,
-    "name": "turtle",
-    "src": "./turtle.jpg"
-  },
-  {
-    "id": 7,
-    "name": "squirrel",
-    "src": "./squirrel.jpg"
-  },
-  {
-    "id": 8,
-    "name": "eagle",
-    "src": "./eagle.jpg"
-  },
-  {
-    "id": 9,
-    "name": "frog",
-    "src": "./frog.jpg"
-  },
-  {
-    "id": 10,
-    "name": "giraffe",
-    "src": "./giraffe.jpg"
-  },
-  {
-    "id": 11,
-    "name": "sheep",
-    "src": "./sheep.jpg"
-  },
-  {
-    "id": 12,
-    "name": "penguin",
-    "src": "./penguin.jpg"
-  }]
+    {
+        "id": 1,
+        "name": "cat",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    },
+    {
+        "id": 2,
+        "name": "dog",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    },
+    {
+        "id": 3,
+        "name": "bird",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    },
+    {
+        "id": 4,
+        "name": "deer",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    },
+    {
+        "id": 5,
+        "name": "hamster",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    },
+    {
+        "id": 6,
+        "name": "turtle",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    },
+    {
+        "id": 7,
+        "name": "squirrel",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    },
+    {
+        "id": 8,
+        "name": "eagle",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    },
+    {
+        "id": 9,
+        "name": "frog",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    },
+    {
+        "id": 10,
+        "name": "giraffe",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    },
+    {
+        "id": 11,
+        "name": "sheep",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    },
+    {
+        "id": 12,
+        "name": "penguin",
+        "image": "https://vignette3.wikia.nocookie.net/vsbattles/images/8/80/Mr._Krabs.png/revision/latest?cb=20150919162131"
+    }
+]

@@ -39,8 +39,11 @@ class App extends Component {
 
    this.setState({ imageArray: this.shuffleArray(this.state.imageArray)});
   };
-  
+
+
+ 
   render() {
+
   
   return (
     
@@ -48,65 +51,65 @@ class App extends Component {
       <Navbar score={this.state.score} topScore={this.state.topScore}  />
       <Header />
       <Main> 
-        <ImageCard 
+        <ImageCard
           id={this.state.imageArray[0].id}
           name={this.state.imageArray[0].name}
-          src={this.state.imageArray[0].src}
+          image={this.state.imageArray[0].image}
           />
         <ImageCard 
         id={this.state.imageArray[1].id}
         name={this.state.imageArray[1].name}
-        src={this.state.imageArray[1].src}
+        image={this.state.imageArray[1].image}
         />
         <ImageCard 
         id={this.state.imageArray[2].id}
         name={this.state.imageArray[2].name}
-        src={this.state.imageArray[2].src}
+        image={this.state.imageArray[2].image}
         />
         <ImageCard 
           id={this.state.imageArray[3].id}
           name={this.state.imageArray[3].name}
-          src={this.state.imageArray[3].src}
+          image={this.state.imageArray[3].image}
           />
         <ImageCard 
           id={this.state.imageArray[4].id}
           name={this.state.imageArray[4].name}
-          src={this.state.imageArray[4].src}
+          image={this.state.imageArray[4].image}
           />
         <ImageCard 
          id={this.state.imageArray[5].id}
          name={this.state.imageArray[5].name}
-         src={this.state.imageArray[5].src}
+         image={this.state.imageArray[5].image}
           />
         <ImageCard 
           id={this.state.imageArray[6].id}
           name={this.state.imageArray[6].name}
-          src={this.state.imageArray[6].src}
+          image={this.state.imageArray[6].image}
           />
         <ImageCard 
           id={this.state.imageArray[7].id}
           name={this.state.imageArray[7].name}
-          src={this.state.imageArray[7].src}
+          image={this.state.imageArray[7].image}
           />
         <ImageCard 
          id={this.state.imageArray[8].id}
          name={this.state.imageArray[8].name}
-         src={this.state.imageArray[8].src}
+         image={this.state.imageArray[8].image}
           />
         <ImageCard 
          id={this.state.imageArray[9].id}
          name={this.state.imageArray[9].name}
-         src={this.state.imageArray[9].src}
+         image={this.state.imageArray[9].image}
           />
         <ImageCard 
        id={this.state.imageArray[10].id}
        name={this.state.imageArray[10].name}
-       src={this.state.imageArray[10].src}
+       image={this.state.imageArray[10].image}
         />
         <ImageCard 
          id={this.state.imageArray[11].id}
          name={this.state.imageArray[11].name}
-         src={this.state.imageArray[11].src}
+         image={this.state.imageArray[11].image}
           />
       </Main>  
       <Footer />
