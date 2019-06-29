@@ -17,6 +17,9 @@ class App extends Component {
   };
 
   shuffleArray = (array) => {
+
+    console.log("shuffleArray called");
+    
     for (let i = array.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
       [array[i], array[j]] = [array[j], array[i]];
@@ -24,21 +27,13 @@ class App extends Component {
     return array;
   };
 
-  componentDidMount() {
 
-    console.log("component did mount");
+  // handleClick = (event) => {
 
+  //   console.log("clicked");
 
-
-  };
-
-
-  handleClick = (event) => {
-
-    console.log("clicked");
-
-    this.setState({ imageArray: this.shuffleArray(this.state.imageArray) });
-  };
+    // this.setState({ imageArray: this.shuffleArray(this.state.imageArray) });
+  // };
 
 
 
@@ -57,6 +52,8 @@ class App extends Component {
                 id={this.state.imageArray[0].id}
                 name={this.state.imageArray[0].name}
                 image={this.state.imageArray[0].image}
+                imageArray={this.state.imageArray}
+                shuffleArray={this.shuffleArray}
               />
             </div>
             <div className="col-4">

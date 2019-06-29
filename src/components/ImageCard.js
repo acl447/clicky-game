@@ -16,7 +16,7 @@ function ImageCard(props) {
   return (
     <div className="card">
       <div className="img-container">
-        <img style={styles} className="img-fluid" id={props.id} alt={props.name} src={props.image} />
+        <img style={styles} className="img-fluid" id={props.id} alt={props.name} src={props.image} onClick={() => props.shuffleArray(props.imageArray)} />
       </div>
     </div>
     );
