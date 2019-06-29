@@ -7,16 +7,13 @@ function Main(props) {
 
     const styles = {
 
-        backgroundColor: 'white',
-    
+        backgroundColor: 'white'
     };
-
-  
    
     return (
-        <main className="container" style={styles}>
-            {props.imageArray}
-        </main>
+        <div className="container" style={styles}>
+      {props.children}
+    </div>
     );
 }
 

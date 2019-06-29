@@ -4,69 +4,14 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import Main from './components/Main';
 import Footer from './components/Footer';
-import cat from './cat.jpg';
-import dog from './dog.jpg';
-import bird from './bird.jpg';
-import deer from './deer.jpg';
-import turtle from './turtle.jpg';
-import hamster from './hamster.jpg';
-import squirrel from './squirrel.jpg';
-import eagle from './eagle.jpg';
-import frog from './frog.jpg';
-import giraffe from './giraffe.jpg';
-import sheep from './sheep.jpg';
-import penguin from './penguin.jpg';
+import images from './images.json';
+import ImageCard from './components/ImageCard';
 
 
 class App extends Component {
 
   state = {
-    imageArray: [{
-      id: 1,
-      src: cat 
-    }, {
-      id: 2,
-      src: dog
-      
-    }, {
-      id: 3,
-      src: bird
-    }, {
-      id: 4,
-      src: deer
-    },
-    {
-      id: 5,
-      src: hamster
-    },
-    {
-      id: 6,
-      src: turtle
-    },
-    {
-      id: 7,
-      src: squirrel
-    },
-    {
-      id: 8,
-      src: eagle
-    },
-    {
-      id: 9,
-      src: frog
-    },
-    {
-      id: 10,
-      src: giraffe
-    },
-    {
-      id: 11,
-      src: sheep
-    },
-    {
-      id: 12,
-      src: penguin
-    }],
+    imageArray: images,
     score: 0,
     topScore: 0
   };
@@ -81,12 +26,16 @@ class App extends Component {
 
   componentDidMount() {
 
-    this.setState({ imageArray: this.shuffleArray(this.state.imageArray)});
+    console.log("component did mount");
 
-  }
+    
+
+  };
 
 
   handleClick = (event) => {
+
+    console.log("clicked");
 
    this.setState({ imageArray: this.shuffleArray(this.state.imageArray)});
   };
@@ -98,8 +47,67 @@ class App extends Component {
     <Wrapper>
       <Navbar score={this.state.score} topScore={this.state.topScore}  />
       <Header />
-      <Main onClick={this.handleClick}> 
-      {this.state.imageArray}
+      <Main> 
+        <ImageCard 
+          id={this.state.imageArray[0].id}
+          name={this.state.imageArray[0].name}
+          src={this.state.imageArray[0].src}
+          />
+        <ImageCard 
+        id={this.state.imageArray[1].id}
+        name={this.state.imageArray[1].name}
+        src={this.state.imageArray[1].src}
+        />
+        <ImageCard 
+        id={this.state.imageArray[2].id}
+        name={this.state.imageArray[2].name}
+        src={this.state.imageArray[2].src}
+        />
+        <ImageCard 
+          id={this.state.imageArray[3].id}
+          name={this.state.imageArray[3].name}
+          src={this.state.imageArray[3].src}
+          />
+        <ImageCard 
+          id={this.state.imageArray[4].id}
+          name={this.state.imageArray[4].name}
+          src={this.state.imageArray[4].src}
+          />
+        <ImageCard 
+         id={this.state.imageArray[5].id}
+         name={this.state.imageArray[5].name}
+         src={this.state.imageArray[5].src}
+          />
+        <ImageCard 
+          id={this.state.imageArray[6].id}
+          name={this.state.imageArray[6].name}
+          src={this.state.imageArray[6].src}
+          />
+        <ImageCard 
+          id={this.state.imageArray[7].id}
+          name={this.state.imageArray[7].name}
+          src={this.state.imageArray[7].src}
+          />
+        <ImageCard 
+         id={this.state.imageArray[8].id}
+         name={this.state.imageArray[8].name}
+         src={this.state.imageArray[8].src}
+          />
+        <ImageCard 
+         id={this.state.imageArray[9].id}
+         name={this.state.imageArray[9].name}
+         src={this.state.imageArray[9].src}
+          />
+        <ImageCard 
+       id={this.state.imageArray[10].id}
+       name={this.state.imageArray[10].name}
+       src={this.state.imageArray[10].src}
+        />
+        <ImageCard 
+         id={this.state.imageArray[11].id}
+         name={this.state.imageArray[11].name}
+         src={this.state.imageArray[11].src}
+          />
       </Main>  
       <Footer />
       </Wrapper>
