@@ -1,25 +1,13 @@
 {
   "files": {
-    "main.js": "/clicky-game/static/js/main.bbdebb99.chunk.js",
-    "main.js.map": "/clicky-game/static/js/main.bbdebb99.chunk.js.map",
+    "main.js": "/clicky-game/static/js/main.8a2bcc9d.chunk.js",
+    "main.js.map": "/clicky-game/static/js/main.8a2bcc9d.chunk.js.map",
     "runtime~main.js": "/clicky-game/static/js/runtime~main.27874bd3.js",
     "runtime~main.js.map": "/clicky-game/static/js/runtime~main.27874bd3.js.map",
-    "static/js/2.3a5cce55.chunk.js": "/clicky-game/static/js/2.3a5cce55.chunk.js",
-    "static/js/2.3a5cce55.chunk.js.map": "/clicky-game/static/js/2.3a5cce55.chunk.js.map",
+    "static/js/2.6efc73d3.chunk.js": "/clicky-game/static/js/2.6efc73d3.chunk.js",
+    "static/js/2.6efc73d3.chunk.js.map": "/clicky-game/static/js/2.6efc73d3.chunk.js.map",
     "index.html": "/clicky-game/index.html",
-    "precache-manifest.da2812109be1eb4feda7ae2347ddfff6.js": "/clicky-game/precache-manifest.da2812109be1eb4feda7ae2347ddfff6.js",
-    "service-worker.js": "/clicky-game/service-worker.js",
-    "static/media/bird.jpg": "/clicky-game/static/media/bird.caf821c0.jpg",
-    "static/media/cat.jpg": "/clicky-game/static/media/cat.7a77e305.jpg",
-    "static/media/deer.jpg": "/clicky-game/static/media/deer.a599f101.jpg",
-    "static/media/dog.jpg": "/clicky-game/static/media/dog.2f37093b.jpg",
-    "static/media/eagle.jpg": "/clicky-game/static/media/eagle.d2274205.jpg",
-    "static/media/frog.jpg": "/clicky-game/static/media/frog.5f0a5a05.jpg",
-    "static/media/giraffe.jpg": "/clicky-game/static/media/giraffe.a2981a10.jpg",
-    "static/media/hamster.jpg": "/clicky-game/static/media/hamster.5bad9cd2.jpg",
-    "static/media/penguin.jpg": "/clicky-game/static/media/penguin.b7a81ac3.jpg",
-    "static/media/sheep.jpg": "/clicky-game/static/media/sheep.350385ea.jpg",
-    "static/media/squirrel.jpg": "/clicky-game/static/media/squirrel.8379fdad.jpg",
-    "static/media/turtle.jpg": "/clicky-game/static/media/turtle.ebf686a0.jpg"
+    "precache-manifest.cf87028f4a64e4c8879e5483dc3f8c1a.js": "/clicky-game/precache-manifest.cf87028f4a64e4c8879e5483dc3f8c1a.js",
+    "service-worker.js": "/clicky-game/service-worker.js"
   }
 }
