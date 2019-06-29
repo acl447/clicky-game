@@ -22,7 +22,7 @@ class App extends Component {
     console.log("shuffleArray called");
     console.log("original array:", array);
 
-  let temp = array.slice();
+    let temp = array.slice();
 
     for (let i = temp.length - 1; i > 0; i--) {
       let j = Math.floor(Math.random() * (i + 1));
@@ -33,10 +33,10 @@ class App extends Component {
     console.log("shuffled array:", temp);
   };
 
-  componentDidMount() {
+  // handleClick = (event) => {
 
-    this.shuffleArray(this.state.imageArray);
-  };
+  //   this.shuffleArray(this.state.imageArray);
+  // };
 
 
   // checkClicked = (array) => {
@@ -87,90 +87,90 @@ class App extends Component {
           </div>
           <div className="row">
             <div className="col-4">
-          <ImageCard
-            id={this.state.imageArray[3].id}
-            name={this.state.imageArray[3].name}
-            image={this.state.imageArray[3].image}
-            imageArray={this.state.imageArray}
-            shuffleArray={this.shuffleArray}
-          />
-          </div>
+              <ImageCard
+                id={this.state.imageArray[3].id}
+                name={this.state.imageArray[3].name}
+                image={this.state.imageArray[3].image}
+                imageArray={this.state.imageArray}
+                shuffleArray={this.shuffleArray}
+              />
+            </div>
             <div className="col-4">
-          <ImageCard
-            id={this.state.imageArray[4].id}
-            name={this.state.imageArray[4].name}
-            image={this.state.imageArray[4].image}
-            imageArray={this.state.imageArray}
-            shuffleArray={this.shuffleArray}
-          />
-          </div>
+              <ImageCard
+                id={this.state.imageArray[4].id}
+                name={this.state.imageArray[4].name}
+                image={this.state.imageArray[4].image}
+                imageArray={this.state.imageArray}
+                shuffleArray={this.shuffleArray}
+              />
+            </div>
             <div className="col-4">
-          <ImageCard
-            id={this.state.imageArray[5].id}
-            name={this.state.imageArray[5].name}
-            image={this.state.imageArray[5].image}
-            imageArray={this.state.imageArray}
-            shuffleArray={this.shuffleArray}
-          />
-          </div>
+              <ImageCard
+                id={this.state.imageArray[5].id}
+                name={this.state.imageArray[5].name}
+                image={this.state.imageArray[5].image}
+                imageArray={this.state.imageArray}
+                shuffleArray={this.shuffleArray}
+              />
+            </div>
           </div>
           <div className="row">
             <div className="col-4">
-          <ImageCard
-            id={this.state.imageArray[6].id}
-            name={this.state.imageArray[6].name}
-            image={this.state.imageArray[6].image}
-            imageArray={this.state.imageArray}
-            shuffleArray={this.shuffleArray}
-          />
-          </div>
+              <ImageCard
+                id={this.state.imageArray[6].id}
+                name={this.state.imageArray[6].name}
+                image={this.state.imageArray[6].image}
+                imageArray={this.state.imageArray}
+                shuffleArray={this.shuffleArray}
+              />
+            </div>
             <div className="col-4">
-          <ImageCard
-            id={this.state.imageArray[7].id}
-            name={this.state.imageArray[7].name}
-            image={this.state.imageArray[7].image}
-            imageArray={this.state.imageArray}
-            shuffleArray={this.shuffleArray}
-          />
-          </div>
-          <div className="col-4">
-          <ImageCard
-            id={this.state.imageArray[8].id}
-            name={this.state.imageArray[8].name}
-            image={this.state.imageArray[8].image}
-            imageArray={this.state.imageArray}
-            shuffleArray={this.shuffleArray}
-          />
-          </div>
+              <ImageCard
+                id={this.state.imageArray[7].id}
+                name={this.state.imageArray[7].name}
+                image={this.state.imageArray[7].image}
+                imageArray={this.state.imageArray}
+                shuffleArray={this.shuffleArray}
+              />
+            </div>
+            <div className="col-4">
+              <ImageCard
+                id={this.state.imageArray[8].id}
+                name={this.state.imageArray[8].name}
+                image={this.state.imageArray[8].image}
+                imageArray={this.state.imageArray}
+                shuffleArray={this.shuffleArray}
+              />
+            </div>
           </div>
           <div className="row">
             <div className="col-4">
-          <ImageCard
-            id={this.state.imageArray[9].id}
-            name={this.state.imageArray[9].name}
-            image={this.state.imageArray[9].image}
-            imageArray={this.state.imageArray}
-            shuffleArray={this.shuffleArray}
-          />
-          </div>
+              <ImageCard
+                id={this.state.imageArray[9].id}
+                name={this.state.imageArray[9].name}
+                image={this.state.imageArray[9].image}
+                imageArray={this.state.imageArray}
+                shuffleArray={this.shuffleArray}
+              />
+            </div>
             <div className="col-4">
-          <ImageCard 
-            id={this.state.imageArray[10].id}
-            name={this.state.imageArray[10].name}
-            image={this.state.imageArray[10].image}
-            imageArray={this.state.imageArray}
-            shuffleArray={this.shuffleArray}
-          />
-          </div>
-         <div className="col-4">
-          <ImageCard
-            id={this.state.imageArray[11].id}
-            name={this.state.imageArray[11].name}
-            image={this.state.imageArray[11].image}
-            imageArray={this.state.imageArray}
-            shuffleArray={this.shuffleArray}
-          />
-          </div>
+              <ImageCard
+                id={this.state.imageArray[10].id}
+                name={this.state.imageArray[10].name}
+                image={this.state.imageArray[10].image}
+                imageArray={this.state.imageArray}
+                shuffleArray={this.shuffleArray}
+              />
+            </div>
+            <div className="col-4">
+              <ImageCard
+                id={this.state.imageArray[11].id}
+                name={this.state.imageArray[11].name}
+                image={this.state.imageArray[11].image}
+                imageArray={this.state.imageArray}
+                shuffleArray={this.shuffleArray}
+              />
+            </div>
           </div>
         </Main>
         <Footer />
