@@ -13,9 +13,17 @@ class App extends Component {
 
   state = {
     imageArray: images,
+    clickedArray: [],
     score: 0,
     topScore: 0
   };
+
+  // blah = {
+
+  //   id: 13,
+  //   stuff: "stuff",
+  //   link: "link"
+  // };
 
   shuffleArray = (array) => {
 
@@ -31,24 +39,70 @@ class App extends Component {
     this.setState({ imageArray: temp });
 
     console.log("shuffled array:", temp);
+
   };
 
-  // handleClick = (event) => {
 
-  //   this.shuffleArray(this.state.imageArray);
+  // renderScore = (imageClicked) => {
+
+  //   let temp = [];
+
+  //   let clickedArray = this.state.clickedArray.slice();
+
+  //   temp.push(clickedArray);
+
+  //   console.log("temp", temp);
+
+  //   let score = this.state.score;
+
+  //   console.log("score", score);
+
+  //   let imageClickedId = imageClicked.id;
+
+  //   console.log("id of image clicked", imageClickedId);
+
+  //   for (let i = 0; i < temp.length; i++) {
+
+  //     if (temp[i] !== imageClickedId) {
+
+  //       temp.push(imageClickedId);
+
+  //       console.log("updated temp", temp);
+
+  //       score += 1;
+
+  //       console.log("updated score variable", score);
+
+  //       this.setState({ clickedArray: temp, score: score });
+
+  //       console.log("updated clickedArray", this.state.clickedArray);
+  //       console.log("updated score in state", this.state.score);
+
+  //     } else {
+
+  //       this.setState({ clickedArray: [], score: 0 });
+
+  //       console.log("reset clickedArray", this.state.clickedArray);
+
+  //       console.log("reset score", this.state.score);
+
+  //     }
+  //   };
   // };
 
 
-  // checkClicked = (array) => {
 
+  // componentDidMount() {
 
-  //   if 
+  //   this.shuffleArray(this.state.imageArray);
 
-  // }
+  //   this.renderScore(this.blah);
+
+  // };
+
 
 
   render() {
-
 
     return (
 
