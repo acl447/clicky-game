@@ -11,7 +11,7 @@ function Main(props) {
     };
    
     return (
-        <div className="container" style={styles}>
+        <div className="container my-5 mx-auto" style={styles}>
       {props.children}
     </div>
     );

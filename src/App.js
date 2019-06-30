@@ -104,6 +104,8 @@ class App extends Component {
 
   render() {
 
+   
+
     return (
 
       <Wrapper>
@@ -111,7 +113,8 @@ class App extends Component {
         <Header />
         <Main>
           <div className="row">
-            <div className="col-4">
+          <div className="col-2"/>
+            <div className="col-2">
               <ImageCard
                 id={this.state.imageArray[0].id}
                 name={this.state.imageArray[0].name}
@@ -120,7 +123,8 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
-            <div className="col-4">
+            <div className="col-1"></div>
+            <div className="col-3">
               <ImageCard
                 id={this.state.imageArray[1].id}
                 name={this.state.imageArray[1].name}
@@ -129,7 +133,7 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
-            <div className="col-4">
+            <div className="col-1">
               <ImageCard
                 id={this.state.imageArray[2].id}
                 name={this.state.imageArray[2].name}
@@ -138,9 +142,12 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
+            <div className="col-1"></div>
+            <div className="col-2"></div>
           </div>
           <div className="row">
-            <div className="col-4">
+            <div className="col-2"/>
+            <div className="col-2">
               <ImageCard
                 id={this.state.imageArray[3].id}
                 name={this.state.imageArray[3].name}
@@ -149,7 +156,8 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
-            <div className="col-4">
+            <div className="col-1"/>
+            <div className="col-3">
               <ImageCard
                 id={this.state.imageArray[4].id}
                 name={this.state.imageArray[4].name}
@@ -158,7 +166,7 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
-            <div className="col-4">
+            <div className="col-1">
               <ImageCard
                 id={this.state.imageArray[5].id}
                 name={this.state.imageArray[5].name}
@@ -167,9 +175,12 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
+            <div className="col-1"></div>
+            <div className="col-2"></div>
           </div>
           <div className="row">
-            <div className="col-4">
+            <div className="col-2"/>
+            <div className="col-2">
               <ImageCard
                 id={this.state.imageArray[6].id}
                 name={this.state.imageArray[6].name}
@@ -178,7 +189,8 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
-            <div className="col-4">
+            <div className="col-1"/>
+            <div className="col-3">
               <ImageCard
                 id={this.state.imageArray[7].id}
                 name={this.state.imageArray[7].name}
@@ -187,7 +199,7 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
-            <div className="col-4">
+            <div className="col-1">
               <ImageCard
                 id={this.state.imageArray[8].id}
                 name={this.state.imageArray[8].name}
@@ -196,9 +208,12 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
+            <div className="col-1"/>
+            <div className="col-2"/>
           </div>
           <div className="row">
-            <div className="col-4">
+            <div className="col-2"/>
+            <div className="col-2">
               <ImageCard
                 id={this.state.imageArray[9].id}
                 name={this.state.imageArray[9].name}
@@ -207,7 +222,8 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
-            <div className="col-4">
+            <div className="col-1"/>
+            <div className="col-3">
               <ImageCard
                 id={this.state.imageArray[10].id}
                 name={this.state.imageArray[10].name}
@@ -216,7 +232,7 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
-            <div className="col-4">
+            <div className="col-1">
               <ImageCard
                 id={this.state.imageArray[11].id}
                 name={this.state.imageArray[11].name}
@@ -225,6 +241,8 @@ class App extends Component {
                 shuffleArray={this.shuffleArray}
               />
             </div>
+            <div className="col-1"/>
+            <div className="col-2"/>
           </div>
         </Main>
         <Footer />

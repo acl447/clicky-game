@@ -22,12 +22,12 @@ function Navbar(props) {
 
     return (
         <nav className="navbar navbar-expand-lg sticky-top" style={styles}>
-            <ul className="navbar-nav mr-auto" style={styles2}>
+            <ul className="navbar-nav" style={styles2}>
             <li className="nav-item active" style={styles2}>
             <a href="/" style={styles2}><strong>Clicky Game</strong></a>
             </li>
             <li className="nav-item" style={styles2}><div>Click an image to begin!</div></li>
-            <li className="nav-item" style={styles2}> Score: {props.score} | Top Score: {props.topScore}</li>
+            <li className="nav-item float-right" style={styles2}> Score: {props.score} | Top Score: {props.topScore}</li>
             </ul>
         </nav>
     );
