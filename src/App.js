@@ -13,17 +13,17 @@ class App extends Component {
 
   state = {
     imageArray: images,
-    clickedArray: [],
+    clickedArray: [1, 3, 7],
     score: 0,
     topScore: 0
   };
 
-  // blah = {
+  blah = {
 
-  //   id: 13,
-  //   stuff: "stuff",
-  //   link: "link"
-  // };
+    id: 13,
+    stuff: "stuff",
+    link: "link"
+  };
 
   shuffleArray = (array) => {
 
@@ -43,52 +43,55 @@ class App extends Component {
   };
 
 
-  // renderScore = (imageClicked) => {
+  renderScore = (imageClicked) => {
 
-  //   let temp = [];
+   
+    let clickedArrayCopy = this.state.clickedArray.slice();
 
-  //   let clickedArray = this.state.clickedArray.slice();
+    console.log(clickedArrayCopy);
 
-  //   temp.push(clickedArray);
+    
 
-  //   console.log("temp", temp);
+    let score = this.state.score;
 
-  //   let score = this.state.score;
+    console.log("score", score);
 
-  //   console.log("score", score);
+    let imageClickedId = imageClicked.id;
 
-  //   let imageClickedId = imageClicked.id;
+    console.log("id of image clicked", imageClickedId);
 
-  //   console.log("id of image clicked", imageClickedId);
+    for (let i = 0; i < clickedArrayCopy.length; i++) {
 
-  //   for (let i = 0; i < temp.length; i++) {
+     
 
-  //     if (temp[i] !== imageClickedId) {
+      if (clickedArrayCopy[i] !== imageClickedId) {
 
-  //       temp.push(imageClickedId);
+        clickedArrayCopy.push(imageClickedId);
 
-  //       console.log("updated temp", temp);
+        console.log("updated clickedArrayCopy", clickedArrayCopy);
 
-  //       score += 1;
+        score += 1;
 
-  //       console.log("updated score variable", score);
+        console.log("updated score variable", score);
 
-  //       this.setState({ clickedArray: temp, score: score });
+        this.setState({ clickedArray: clickedArrayCopy, score: score });
 
-  //       console.log("updated clickedArray", this.state.clickedArray);
-  //       console.log("updated score in state", this.state.score);
+        console.log("updated clickedArray in state", this.state.clickedArray);
+        console.log("updated score in state", this.state.score);
 
-  //     } else {
+      }
 
-  //       this.setState({ clickedArray: [], score: 0 });
+      // else {
 
-  //       console.log("reset clickedArray", this.state.clickedArray);
+      //   this.setState({ clickedArray: [], score: 0 });
 
-  //       console.log("reset score", this.state.score);
+      //   console.log("reset clickedArray", this.state.clickedArray);
 
-  //     }
-  //   };
-  // };
+      //   console.log("reset score", this.state.score);
+
+      // }
+    };
+  };
 
 
 
@@ -121,6 +124,8 @@ class App extends Component {
                 image={this.state.imageArray[0].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
               />
             </div>
             <div className="col-1"></div>
@@ -131,6 +136,9 @@ class App extends Component {
                 image={this.state.imageArray[1].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
+
               />
             </div>
             <div className="col-1">
@@ -140,6 +148,8 @@ class App extends Component {
                 image={this.state.imageArray[2].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
               />
             </div>
             <div className="col-1"></div>
@@ -154,6 +164,8 @@ class App extends Component {
                 image={this.state.imageArray[3].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
               />
             </div>
             <div className="col-1"/>
@@ -164,6 +176,8 @@ class App extends Component {
                 image={this.state.imageArray[4].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
               />
             </div>
             <div className="col-1">
@@ -173,6 +187,8 @@ class App extends Component {
                 image={this.state.imageArray[5].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
               />
             </div>
             <div className="col-1"></div>
@@ -187,6 +203,8 @@ class App extends Component {
                 image={this.state.imageArray[6].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
               />
             </div>
             <div className="col-1"/>
@@ -197,6 +215,8 @@ class App extends Component {
                 image={this.state.imageArray[7].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
               />
             </div>
             <div className="col-1">
@@ -206,6 +226,8 @@ class App extends Component {
                 image={this.state.imageArray[8].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
               />
             </div>
             <div className="col-1"/>
@@ -220,6 +242,8 @@ class App extends Component {
                 image={this.state.imageArray[9].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
               />
             </div>
             <div className="col-1"/>
@@ -230,6 +254,8 @@ class App extends Component {
                 image={this.state.imageArray[10].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
               />
             </div>
             <div className="col-1">
@@ -239,6 +265,8 @@ class App extends Component {
                 image={this.state.imageArray[11].image}
                 imageArray={this.state.imageArray}
                 shuffleArray={this.shuffleArray}
+                renderScore={this.renderScore}
+                blah={this.blah}
               />
             </div>
             <div className="col-1"/>
