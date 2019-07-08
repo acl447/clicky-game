@@ -2,61 +2,73 @@
     {
         "id": 1,
         "name": "cat",
-        "image": "./images/cat.jpg"
+        "image": "./images/cat.jpg",
+        "clicked": false
     },
     {
         "id": 2,
         "name": "dog",
-        "image": "./images/dog.jpg"
+        "image": "./images/dog.jpg",
+        "clicked": false
     },
     {
         "id": 3,
         "name": "bird",
-        "image": "./images/bird.jpg"
+        "image": "./images/bird.jpg",
+        "clicked": false
     },
     {
         "id": 4,
         "name": "deer",
-        "image": "./images/deer.jpg"
+        "image": "./images/deer.jpg",
+        "clicked": false
     },
     {
         "id": 5,
         "name": "hamster",
-        "image": "./images/hamster.jpg"
+        "image": "./images/hamster.jpg",
+        "clicked": false
     },
     {
         "id": 6,
         "name": "turtle",
-        "image": "./images/turtle.jpg"
+        "image": "./images/turtle.jpg",
+        "clicked": false
     },
     {
         "id": 7,
         "name": "squirrel",
-        "image": "./images/squirrel.jpg"
+        "image": "./images/squirrel.jpg",
+        "clicked": false
     },
     {
         "id": 8,
         "name": "eagle",
-        "image": "./images/eagle.jpg"
+        "image": "./images/eagle.jpg",
+        "clicked": false
     },
     {
         "id": 9,
         "name": "frog",
-        "image": "./images/frog.jpg"
+        "image": "./images/frog.jpg",
+        "clicked": false
     },
     {
         "id": 10,
         "name": "giraffe",
-        "image": "./images/giraffe.jpg"
+        "image": "./images/giraffe.jpg",
+        "clicked": false
     },
     {
         "id": 11,
         "name": "sheep",
-        "image": "./images/sheep.jpg"
+        "image": "./images/sheep.jpg",
+        "clicked": false
     },
     {
         "id": 12,
         "name": "penguin",
-        "image": "./images/penguin.jpg"
+        "image": "./images/penguin.jpg",
+        "clicked": false
     }
 ]

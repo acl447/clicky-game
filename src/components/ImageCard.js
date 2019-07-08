@@ -9,14 +9,18 @@ function ImageCard(props) {
     height: '143px',
     width: '143px'
   };
- 
+
+  
+
+
+
   return (
     <div className="card mb-5" style={styles}>
       <div className="img-container">
-        <img style={styles} className="img-fluid" id={props.id} alt={props.name} src={props.image} onClick={function(event){props.shuffleArray(props.imageArray); props.renderScore(props.blah);}} />
+        <img style={styles} className="img-fluid" id={props.id} alt={props.name} src={props.image} onClick={() => props.clickPicture(props.id)} />
       </div>
-     </div>
-    );
+    </div>
+  );
 }
 
 

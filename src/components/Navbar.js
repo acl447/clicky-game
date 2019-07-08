@@ -28,6 +28,7 @@ function Navbar(props) {
             </li>
             <li className="nav-item" style={styles2}><div>Click an image to begin!</div></li>
             <li className="nav-item float-right" style={styles2}> Score: {props.score} | Top Score: {props.topScore}</li>
+            <li className="message" style={styles2}><strong>{props.message}</strong></li>
             </ul>
         </nav>
     );
