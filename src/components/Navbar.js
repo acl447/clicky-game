@@ -14,9 +14,9 @@ function Navbar(props) {
     const styles2 = {
         backgroundColor: '#5133a4',
         color: 'white',
-        fontSize: '20px',
-        margin: 5,
-        padding: 5
+        fontSize: '22px',
+        padding: '0 26px',
+        textAlign: 'center',  
 
     };
 
@@ -26,9 +26,8 @@ function Navbar(props) {
             <li className="nav-item active" style={styles2}>
             <a href="/" style={styles2}><strong>Clicky Game</strong></a>
             </li>
-            <li className="nav-item" style={styles2}><div>Click an image to begin!</div></li>
+            <li className="nav-item" style={styles2}><div>{props.message}</div></li>
             <li className="nav-item float-right" style={styles2}> Score: {props.score} | Top Score: {props.topScore}</li>
-            <li className="message" style={styles2}><strong>{props.message}</strong></li>
             </ul>
         </nav>
     );

@@ -18,7 +18,7 @@ function Footer() {
 
     return (
         <footer className="footer fixed-bottom" style={styles2}>
-            <div className="bottom" style={styles}>Clicky Game!</div>
+            <div className="bottom" style={styles}>Clicky Game!<i></i></div>
             
         </footer>
     );

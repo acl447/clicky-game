@@ -16,9 +16,11 @@ class App extends Component {
     clickedArray: [],
     score: 0,
     topScore: 0,
-    message: "",
+    message: "Click an image to begin!",
     shakeit: "false"
   };
+
+  
 
   clickPicture = id => {
 
@@ -28,14 +30,14 @@ class App extends Component {
 
     if (this.state.clickedArray.includes(id)) {
 
-      this.setState({ score: 0, clickedArray: [], message: "Picture has already been clicked! Click for a new game!", shakeit: "true" });
+      this.setState({ score: 0, clickedArray: [], message: "Picture has already been clicked! Click to start a new game!", shakeit: "true" });
     }
     else {
 
       this.setState({
         clickedArray: this.state.clickedArray.concat([id]),
         score: this.state.score + 1,
-        message: "Correct guess! You rock!",
+        message: "You guessed correctly!",
         shakeit: "false"
       });
     }
