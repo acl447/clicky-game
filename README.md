@@ -4,6 +4,8 @@ This is a fun game to test your memory. Click on a picture, and if you click the
 
 Technologies used to make this app are React, Git, JavaScript, CSS, Bootstrap and HTML5. 
 
+Link to deployed app on Github Pages: https://acl447.github.io/clicky-game/
+
 To make this app I first created the React app, and followed instructions in the README file to deploy to Github Pages. I then added React components including an ImageCard component, and added an onClick property to the ImageCard. 
 
 Clicking an image triggers a JavaScript function, which shuffles the array of image cards, and increases the score by one if an image has only been clicked once. 
